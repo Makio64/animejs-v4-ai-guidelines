@@ -18,14 +18,20 @@ import { animate, createTimeline, stagger, utils, svg, eases, engine } from 'ani
 // import anime from 'animejs';
 ```
 
-### 2. Configure Time Units to Seconds (MANDATORY)
+### 2. Configure Time Units to Seconds (SET ONCE IN APP ENTRY POINT)
 ```javascript
+// ⚠️ IMPORTANT: Set this ONLY ONCE in your app's main entry point
+// For React: App.js/App.tsx or index.js/index.tsx
+// For Vue: main.js/main.ts
+// For vanilla JS: The main script file that loads first
+
 import { engine } from 'animejs';
 
-// Set this ONCE at app initialization (after imports, before animations)
+// Set ONLY in the app's entry point, NOT in components
 engine.timeUnit = 's';
 
-// Now ALL durations use seconds: 1 = 1 second, 0.5 = 500ms
+// Now ALL durations use seconds everywhere: 1 = 1 second, 0.5 = 500ms
+// DO NOT set this in individual components - it's a global setting!
 ```
 
 ### 3. Single-Line Format for Simple Animations (REQUIRED)
@@ -45,7 +51,7 @@ animate('.element', {
 
 Before generating anime.js code, verify:
 - [ ] Using `import { animate, ... } from 'animejs'` NOT `import anime`
-- [ ] Set `engine.timeUnit = 's'` at app start
+- [ ] Set `engine.timeUnit = 's'` ONLY ONCE in app entry point (NOT in components)
 - [ ] Using seconds for all durations (1 = 1 second)
 - [ ] Simple animations on ONE LINE
 - [ ] Using `animate()` NOT `anime()`
@@ -362,7 +368,7 @@ anime.running
 
 When asked to create animations with anime.js:
 
-1. **ALWAYS** set `engine.timeUnit = 's'` at app start
+1. **ONLY** set `engine.timeUnit = 's'` ONCE in the app's main entry point (App.js, main.js, index.js) - NEVER in components
 2. **ALWAYS** use seconds for all durations (1 = 1 second)
 3. **ALWAYS** format simple animations on ONE LINE
 4. **ALWAYS** start with v4 imports
