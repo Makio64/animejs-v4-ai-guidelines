@@ -46,14 +46,10 @@ animate('.box', { x: 300, rotate: 360, duration: 2000, ease: 'inOutQuad' });
 ### From Animation
 ```javascript
 // GSAP
-gsap.from('.box', {
-  opacity: 0,
-  y: 50,
-  duration: 1
-});
+gsap.from('.box', { opacity: 0, y: 50, duration: 1 });
 
 // Anime.js v4
-animate('.box', { opacity: { to: [0, 1] }, y: { to: [50, 0] }, duration: 1000 });
+animate('.box', { opacity: { from: 0 }, y: { from: 50 }, duration: 1 });
 ```
 
 ### FromTo Animation
