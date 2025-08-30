@@ -9,39 +9,54 @@ This repository contains comprehensive instructions to ensure AI coding assistan
 Just copy and paste these commands into your AI assistant:
 
 ### Claude Code
+
+**Quick reference (condensed version):**
 ```bash
-# Quick reference (condensed version):
-"Add rules from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE_CONDENSED.md"
+Add rules from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE_CONDENSED.md
+```
 
-# Full reference (comprehensive):
-"Add rules from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE.md"
+**Full reference (comprehensive):**
+```bash
+Add rules from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE.md
+```
 
-# Migrate from GSAP:
-"Follow https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/GSAP_TO_ANIME.md to migrate this GSAP code"
+**Migrate from GSAP:**
+```bash
+Follow https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/GSAP_TO_ANIME.md to migrate this GSAP code
 ```
 
 ### Cursor
+
+**Quick reference (condensed):**
 ```bash
-# Quick reference (condensed):
 @https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE_CONDENSED.md
+```
 
-# Full reference:
+**Full reference:**
+```bash
 @https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE.md
+```
 
-# Migrate from GSAP:
+**Migrate from GSAP:**
+```bash
 @https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/GSAP_TO_ANIME.md migrate from GSAP
 ```
 
 ### ChatGPT / Claude.ai / Others
+
+**Quick reference (faster, condensed):**
 ```bash
-# Quick reference (faster, condensed):
-"Use instructions from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE_CONDENSED.md for anime.js v4"
+Use instructions from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE_CONDENSED.md for anime.js v4
+```
 
-# Full reference (comprehensive):
-"Use instructions from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE.md for anime.js v4"
+**Full reference (comprehensive):**
+```bash
+Use instructions from https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/CLAUDE.md for anime.js v4
+```
 
-# For GSAP migration:
-"Follow the guide at https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/GSAP_TO_ANIME.md"
+**For GSAP migration:**
+```bash
+Follow the guide at https://github.com/Makio64/animejs-v4-ai-guidelines/blob/main/GSAP_TO_ANIME.md
 ```
 
 ## 📚 What's Included
